@@ -38,7 +38,7 @@ When accessing the `API page`_, there are two blocks: *default* and *schemas*.
 .. image:: https://querido-diario-static.nyc3.cdn.digitaloceanspaces.com/docs/api-docs.png
 
 **Schemas** describe objects and their details. Through them, you can get to know
-the data that Querido Diário stores and its types.
+the data that Dear Diary stores and its types.
 
 .. image:: https://querido-diario-static.nyc3.cdn.digitaloceanspaces.com/docs/api-gazetteitem.png
 
@@ -61,7 +61,7 @@ execute, an access is made to the Public API and a *response* is displayed.
 In the **response body** field you can check the search results: how many 
 files serve the search, a small excerpt from the text of each diary 
 official where the keyword is found, information about it, such as date, source
-of the file in the Querido Diario storage cloud, the edition number, etc.
+of the file in the Dear Diary storage cloud, the edition number, etc.
 
 However, this information can also be obtained via :doc:`search-interface` 
 with much more user-friendly navigation. Here, what is of interest, in fact, is the URL
@@ -72,14 +72,14 @@ https://queridodiario.ok.org.br/api/gazettes?territory_ids=2700706&querystring=o
 
 This URL is a permanent *link* to the search with specific settings. She 
 can be added to *scripts*, such as data analysis code, to make 
-automated use of Querido Diario data.
+automated use of Dear Diary data.
 
 Understanding the Response URL
 ---------------------------
 
 Navigate through the API page, trying different *endpoints*, configured 
 with different fields is an initial step that allows greater familiarity with 
-how Querido Diario data is accessed and understanding patterns of 
+how Dear Diary data is accessed and understanding patterns of 
 filling. Continuing with the example above, the generated URL explains the fields: 
 
 ... the API was accessed: ``https://queridodiario.ok.org.br/api/``
